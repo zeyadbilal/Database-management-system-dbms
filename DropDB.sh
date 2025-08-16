@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while true
+while true;
 do
     read -p "Drop DataBase <Enter DataBase name>: " dbname
     source DatabaseValidation.sh 1
